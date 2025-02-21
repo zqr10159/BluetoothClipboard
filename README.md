@@ -56,6 +56,17 @@
 - Material Design 主题
 - Serilog 日志记录
 
+### 发布
+
+发布为单个可执行文件：
+```bash
+dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishReadyToRun=true
+```
+
+发布文件将位于 `bin/Release/net6.0-windows/win-x64/publish` 目录下。
+
+如果需要更小的文件体积，可以添加 `/p:PublishTrimmed=true` 参数，但要注意完整测试所有功能。
+
 ## 许可证
 
 本项目采用 Apache License 2.0 许可证。详见 [LICENSE](LICENSE) 文件。 
