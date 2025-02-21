@@ -1,0 +1,1 @@
+C:\Users\zqr10\RiderProjects\BluetoothClipboard\obj\Debug\net6.0-windows10.0.17763\BluetoothClipboard.csproj.AssemblyReference.cache
